@@ -2,14 +2,37 @@ body {
 	background: #fefefe;
 }
 
-.mainHeader {
-	color: tomato;
-	
-}
-
-.sectionHeader {
+.sectionHeader, .diaryHeader {
 	color: #1460AA;
-	font-size: 63px;
+}
+
+.header {
+	color: yellow;
+}
+
+.heading {
+	color: #00487C;
+	margin-bottom: 48px;
+}
+
+.thirdHeader {
+	color: #0496FF;
+}
+
+.link {
+	color: #1A936F;
+}
+
+.about {
 
 }
 
+.paragraph {
+	padding: 16px;
+}
+
+.main {
+	width: 100%;
+	max-width: 700px;
+	margin: 32px auto;
+}
