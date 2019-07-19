@@ -10,50 +10,73 @@
 </head>
 
 <body>
-	<header class="header">
-		<a class="link" href="index.html">Strona główna</a>
-		<a class="link" href="podstrona.html">Podstrona</a>
+	<header class="navigation">
+		<a class="navigation__link" href="index.html">Strona główna</a>
+		<a class="navigation__link" href="podstrona.html">Podstrona</a>
 	</header>
-	<main class="main">
+	<main id="top" class="main">
 		<header class="header">
-			<h1 class="heading">
+			<h1 class="header__title">
 				Maciek - Strona domowa
 			</h1>
 		</header>
-		<section class="about">
-			<h2 class="sectionHeader">Kim jestem?</h2>
-			<p class="paragraph">
-				Jestem skromnym dziumaczem. Dziumam i dziumam i ubaw z tego mam. Jak dorosnę, chcę być strażakiem. <br>
-				<a href="#pamietniczek">Przejdź do pamiętniczka</a>
 
+		<section class="about__header">
+			<!-- <div class="box">Co ten frontend</div> -->
+			<img src="Ninja.jpg" alt="Ninja" class="about__picture">
+			<h2 class="about__header">Kim jestem?</h2>
+			<p class="about__paragraph">
+				Jestem skromnym dziumaczem. Dziumam i dziumam i ubaw z tego mam. Jak dorosnę, chcę być strażakiem. <br>
+				<a class="about__link" href="#pamietniczek">Przejdź do pamiętniczka</a>
+			</p>
+			<p class="about__paragraph about__paragraph--js">
+				Testuję modyfikator
 			</p>
 		</section>
-		<section class="sectionDiary" id="pamietniczek">
-			<h2 class="diaryHeader">Pamiętniczek</h2>
-			<section>
-				<h3 class="thirdHeader">Co tam panie w polityce?</h3>
-				<p class="paragraph">
+
+		<section class="diary" id="pamietniczek">
+			<h2 class="diary__header">Pamiętniczek</h2>
+			<section class="day">
+				<h3 class="day__header">Co tam panie w polityce?</h3>
+				<p class="day__paragraph">
 					Ano niewiele, jak się okazuje. Lubię zupę, ale nie potrafię tego zmonetyzować. Synergia. Energia. Sztos.
 					Placki, które lubię jeść...<br>
 					<a href="podstrona.html">Przejdź do pełnego artykułu</a>
 				</p>
 			</section>
-			<section>
-				<h3>Krótka historia o skrobaniu kartofla</h3>
-				<p class="paragraph">
+
+			<section class="day">
+				<h3 class="day__header">Co tam panie w polityce?</h3>
+				<p class="day__paragraph">
+					Ano niewiele, jak się okazuje. Lubię zupę, ale nie potrafię tego zmonetyzować. Synergia. Energia. Sztos.
+					Placki, które lubię jeść...<br>
+					<a href="podstrona.html">Przejdź do pełnego artykułu</a>
+				</p>
+			</section>
+
+			<section class="day">
+				<h3 class="day__header">Co tam panie w polityce?</h3>
+				<p class="day__paragraph">
+					Ano niewiele, jak się okazuje. Lubię zupę, ale nie potrafię tego zmonetyzować. Synergia. Energia. Sztos.
+					Placki, które lubię jeść...<br>
+					<a href="podstrona.html">Przejdź do pełnego artykułu</a>
+				</p>
+			</section>
+			<section class="day">
+				<h3 class="day__header">Krótka historia o skrobaniu kartofla</h3>
+				<p class="day__paragraph">
 					Skrobałem dziś kartofla. To była doskonała i rozwijająca zabawa, którą polecam wszystkim o IQ > 160. Super
 					zajęcie w przerwach od oglądania Rick and Morty i debatowania <b>w internecie</b> o sprawach, które nas nie
 					dotyczą.
 				</p>
 			</section>
-
-
-
 		</section>
-
-
 	</main>
-	<footer>Strona domowa Maćka, który lubi Dziuba</footer>
+	<footer>
+		<a href="#top" class="top">Na górę</a>
+		Strona domowa Maćka, który lubi Dziuba
+
+	</footer>
 	<script src="main.js"></script>
 </body>
 
