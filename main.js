@@ -57,6 +57,3 @@ function calculate(x) {
 console.log (calculate(2));
 const myCalculation = calculate(4);
 console.log(myCalculation);
-
-
-}
