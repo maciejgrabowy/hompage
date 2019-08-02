@@ -8,8 +8,8 @@ html {
 
 body {
 	background: #fefefe;
-	background-color: #dee0e4;
-	background-image: linear-gradient(19deg, #dee0e4 0%, #add6ff 38%, #59cdff 100%);
+	background-color: #FAACA8;
+	background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
 }
 
 .diary__header, .sectionHeader {
@@ -23,6 +23,10 @@ body {
 .header__title {
 	color: #00487C;
 	margin-bottom: 48px;
+}
+
+.header__title--red {
+	color: darkred;
 }
 
 .navigation {
@@ -126,4 +130,30 @@ body {
 
 .day__link {
 	color: #1A936F;
+}
+
+@media (min-width: 640px) {
+	.main {
+		max-width: 900px;
+	}
+	.navigation__switcher {
+		display: none;
+	}
+}
+
+@media (max-width: 640px) {
+	.navigation__list {
+		flex-direction: column;
+		display: none;
+	}
+	.navigation__list--visible {
+		display: flex;
+	}
+	.navigation__item {
+		margin: 16px;
+	}
+	.navigation__switcher {
+		border: none;
+		background: none;
+	}
 }
