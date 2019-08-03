@@ -132,6 +132,10 @@ body {
 	color: #1A936F;
 }
 
+.site-header {
+	min-height: 48px;
+}
+
 @media (min-width: 640px) {
 	.main {
 		max-width: 900px;
@@ -155,5 +159,8 @@ body {
 	.navigation__switcher {
 		border: none;
 		background: none;
+		position: absolute;
+		right: 16px;
+		top: 16px;
 	}
 }
